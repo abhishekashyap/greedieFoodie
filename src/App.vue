@@ -1,6 +1,6 @@
 <template>
   <v-app id="foodie">
-    <v-app-bar app clipped-left class="primary">
+    <v-app-bar app clipped-left class="orange darken-1">
       <v-app-bar-nav-icon @click="drawer = !drawer" />
       <span class="title ml-3 mr-5">
         Greedie&nbsp;
@@ -14,10 +14,20 @@
         prepend-inner-icon="search"
       />
       <v-spacer />
+      <v-btn class="ma-2" outlined color="white">Sign-up</v-btn>
+      <v-btn color="text--white" dark to="/login">Login</v-btn>
     </v-app-bar>
 
     <v-navigation-drawer v-model="drawer" app clipped color="grey lighten-4">
       <v-list dense class="grey lighten-4">
+        <v-list-item link to="/">
+          <v-list-item-action>
+            <v-icon>home</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title class="grey--text">Home</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
         <template v-for="(item, i) in items">
           <v-row v-if="item.heading" :key="i" align="center">
             <v-col cols="6">

@@ -1,8 +1,10 @@
 <template>
   <v-container fluid class="grey lighten-4 fill-height">
+    <v-spacer></v-spacer>
     <v-row justify="center" align="center">
       <appCarousel></appCarousel>
     </v-row>
+    <v-spacer></v-spacer>
     <v-row justify="center" align="center">
       <appCard
         v-for="(restraunt, index) in restraunts"

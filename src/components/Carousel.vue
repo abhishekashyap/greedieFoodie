@@ -3,7 +3,7 @@
     <v-carousel-item v-for="(slide, i) in slides" :key="i">
       <v-img :src="slide.image" height="100%">
         <v-row class="fill-height" align="center" justify="center">
-          <div class="display-3 white--text">
+          <div class="display-3 white--text text-center">
             {{ slide.name }}
           </div>
         </v-row>
