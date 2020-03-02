@@ -1,21 +1,26 @@
 <template>
   <v-container fluid class="grey lighten-4 fill-height">
     <v-row justify="center" align="center">
-      <app-card
+      <appCarousel></appCarousel>
+    </v-row>
+    <v-row justify="center" align="center">
+      <appCard
         v-for="(restraunt, index) in restraunts"
         :key="index"
         :restraunt="restraunt"
-      ></app-card>
+      ></appCard>
     </v-row>
   </v-container>
 </template>
 
 <script>
 import appCard from "@/components/Card.vue";
+import appCarousel from "@/components/Carousel.vue";
 
 export default {
   components: {
-    appCard: appCard
+    appCard: appCard,
+    appCarousel: appCarousel
   },
   data() {
     return {

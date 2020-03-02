@@ -56,20 +56,19 @@ export default {
   data: () => ({
     drawer: null,
     items: [
-      { icon: "lightbulb_outline", text: "Notes" },
-      { icon: "touch_app", text: "Reminders" },
+      { icon: "lightbulb_outline", text: "What's popular" },
+      { icon: "touch_app", text: "View orders" },
       { divider: true },
-      { heading: "Labels" },
-      { icon: "add", text: "Create new label" },
-      { divider: true },
-      { icon: "archive", text: "Archive" },
-      { icon: "delete", text: "Trash" },
+      { heading: "My Account" },
+      { icon: "home", text: "Manage addresses" },
+      { icon: "shopping_cart", text: "View cart" },
       { divider: true },
       { icon: "settings", text: "Settings" },
-      { icon: "chat_bubble", text: "Trash" },
+      { icon: "phonelink", text: "Download mobile app" },
       { icon: "help", text: "Help" },
-      { icon: "phonelink", text: "App downloads" },
-      { icon: "keyboard", text: "Keyboard shortcuts" }
+      { divider: true },
+      { text: "Seller" },
+      { text: "Buyer" }
     ]
   })
 };

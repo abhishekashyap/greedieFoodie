@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto my-12" max-width="374">
+  <v-card class="mx-auto my-12 my-xs-6" max-width="374">
     <v-img height="250" :src="restraunt.image"></v-img>
 
     <v-card-title>{{ restraunt.name }}</v-card-title>
@@ -44,8 +44,8 @@
     </v-card-text>
 
     <v-card-actions>
-      <v-btn color="deep-purple lighten-2" text>
-        Book now
+      <v-btn class="mx-2" fab dark color="pink">
+        <v-icon dark>mdi-plus</v-icon>
       </v-btn>
       <v-spacer></v-spacer>
       <v-btn color="deep-purple" text>
