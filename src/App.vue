@@ -14,7 +14,7 @@
         prepend-inner-icon="search"
       />
       <v-spacer />
-      <v-btn class="ma-2" outlined color="white">Sign-up</v-btn>
+      <v-btn class="ma-2" outlined color="white" to="/signup">Sign-up</v-btn>
       <v-btn color="text--white" dark to="/login">Login</v-btn>
     </v-app-bar>
 
@@ -49,6 +49,17 @@
             </v-list-item-content>
           </v-list-item>
         </template>
+        <v-divider />
+        <v-list-item link>
+          <v-list-item-action>
+            <v-icon>supervisor_account</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title class="grey--text"
+              >Partner with us</v-list-item-title
+            >
+          </v-list-item-content>
+        </v-list-item>
       </v-list>
     </v-navigation-drawer>
 
@@ -75,10 +86,7 @@ export default {
       { divider: true },
       { icon: "settings", text: "Settings" },
       { icon: "phonelink", text: "Download mobile app" },
-      { icon: "help", text: "Help" },
-      { divider: true },
-      { text: "Seller" },
-      { text: "Buyer" }
+      { icon: "help", text: "Help" }
     ]
   })
 };
