@@ -30,11 +30,11 @@ export default {
         {
           image:
             "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=653&q=80",
-          name: "Square one",
-          class: "Canteen",
-          details: "Multifloor cafe with seating upto 50",
+          name: "Burger King",
+          class: "Fastfood",
+          details: "Multifloor with seating upto 150",
           open: "9AM - 11PM",
-          price: "20 - 700"
+          price: "50 - 700"
         },
         {
           image:

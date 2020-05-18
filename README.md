@@ -30,6 +30,12 @@ npm run build
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+## Features
+
+- Material design
+- PWA support
+- Responsive
+
 <!-- ## Screenshots -->
 
 ## Built With

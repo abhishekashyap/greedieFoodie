@@ -20,32 +20,27 @@ export default {
         "warning",
         "pink darken-2",
         "red lighten-1",
-        "deep-purple accent-4"
+        "deep-purple accent-4",
       ],
       slides: [
         {
-          name: "Yo China!",
+          name: "Restaurant on web",
           image:
-            "https://images.unsplash.com/photo-1550353127-b0da3aeaa0ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80"
+            "https://images.unsplash.com/photo-1550353127-b0da3aeaa0ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80",
         },
         {
-          name: "Haldirams",
+          name: "Veggies friendly restaurant",
           image:
-            "https://images.unsplash.com/photo-1549834146-0702b38f1bed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            "https://images.unsplash.com/photo-1549834146-0702b38f1bed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80",
         },
         {
-          name: "Chitkara University",
+          name: "On time, or it is on us",
           image:
-            "https://images.unsplash.com/photo-1553851935-cad21b77d358?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80"
+            "https://images.unsplash.com/photo-1553851935-cad21b77d358?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80",
         },
-        {
-          name: "Chandigarh University",
-          image:
-            "https://images.unsplash.com/photo-1512772452758-275f069da6bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-        }
-      ]
+      ],
     };
-  }
+  },
 };
 </script>
 <style lang="scss" scoped>
