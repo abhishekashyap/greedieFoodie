@@ -33,7 +33,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## Built With
 
 - [Vue](https://vuejs.org) - The Progressive JavaScript Framework
-- [Vuetify](https://vuetifyjs.com/en/) - Material Design Component Framework
+- [Vuetify](https://vuetifyjs.com/) - Material Design Component Framework
 
 ## Contributing
 
