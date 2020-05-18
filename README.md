@@ -4,6 +4,8 @@
 
 Greedie foodie is a non-functional design template made up on Vue using Vuetify.
 
+This template is in compliance with material design guidelines.
+
 [See the live version here](https://greediefoodie.netlify.app/)
 
 ## Project setup
@@ -37,7 +39,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Contributing
 
-Currently not accepting any contributions
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests.
 
 ## Authors
 
