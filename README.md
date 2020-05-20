@@ -36,7 +36,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 - PWA support
 - Responsive
 
-<!-- ## Screenshots -->
+## Screenshots
+
+![Home](screenshots/mocks/home05x.png "Landing page")
 
 ## Built With
 
